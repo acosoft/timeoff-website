@@ -16,6 +16,7 @@
 		"preview": "pnpm run build && wrangler dev"
 	},
 	"dependencies": {
+		"@calcom/embed-react": "^1.5.3",
 		"@docusaurus/core": "3.9.2",
 		"@docusaurus/preset-classic": "3.9.2",
 		"@mdx-js/react": "^3.0.0",

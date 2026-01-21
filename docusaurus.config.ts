@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Schedule your TimeOFF',
   tagline: 'Simple PTO workflow for small teams.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/workflow.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {

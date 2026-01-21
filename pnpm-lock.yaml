@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@calcom/embed-react':
+        specifier: ^1.5.3
+        version: 1.5.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@docusaurus/core':
         specifier: 3.9.2
         version: 3.9.2(@mdx-js/react@3.1.1(@types/react@19.2.9)(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.6.3)
@@ -676,6 +679,18 @@ packages:
   '@babel/types@7.28.6':
     resolution: {integrity: sha512-0ZrskXVEHSWIqZM/sQZ4EV3jZJXRkio/WCxaqKZP1g//CEWEPSfeZFcms4XeKBCHU0ZKnIkdJeU/kF+eRp5lBg==}
     engines: {node: '>=6.9.0'}
+
+  '@calcom/embed-core@1.5.3':
+    resolution: {integrity: sha512-GeId9gaByJ5EWiPmuvelZOvFWPOTWkcWZr5vGTCbIUTX125oE5yn0n8lDF1MJk5Xj1WO+/dk9jKIE08Ad9ytiQ==}
+
+  '@calcom/embed-react@1.5.3':
+    resolution: {integrity: sha512-JCgge04pc8fhdvUmPNVLhW8/lCWK+AAziKecKWWPfv1nn2s+qKP2BwsEAnxhxK9yPOBgE1EIEgmYkrrNB1iajA==}
+    peerDependencies:
+      react: ^18.2.0 || ^19.0.0
+      react-dom: ^18.2.0 || ^19.0.0
+
+  '@calcom/embed-snippet@1.3.3':
+    resolution: {integrity: sha512-pqqKaeLB8R6BvyegcpI9gAyY6Xyx1bKYfWvIGOvIbTpguWyM1BBBVcT9DCeGe8Zw7Ujp5K56ci7isRUrT2Uadg==}
 
   '@cloudflare/kv-asset-handler@0.4.2':
     resolution: {integrity: sha512-SIOD2DxrRRwQ+jgzlXCqoEFiKOFqaPjhnNTGKXSRLvp1HiOvapLaFG2kEr9dYQTYe8rKrd9uvDUzmAITeNyaHQ==}
@@ -6311,6 +6326,19 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
+
+  '@calcom/embed-core@1.5.3': {}
+
+  '@calcom/embed-react@1.5.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+    dependencies:
+      '@calcom/embed-core': 1.5.3
+      '@calcom/embed-snippet': 1.3.3
+      react: 19.2.3
+      react-dom: 19.2.3(react@19.2.3)
+
+  '@calcom/embed-snippet@1.3.3':
+    dependencies:
+      '@calcom/embed-core': 1.5.3
 
   '@cloudflare/kv-asset-handler@0.4.2': {}
 
