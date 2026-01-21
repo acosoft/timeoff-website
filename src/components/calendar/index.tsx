@@ -1,19 +1,24 @@
-import Cal, { getCalApi } from "@calcom/embed-react";
+import { getCalApi } from "@calcom/embed-react";
+import Link from "@docusaurus/Link";
 import { useEffect } from "react";
+import styles from './index.module.css';
 
-export default function Calendar() {
+export default function () {
   useEffect(() => {
     (async function () {
       const cal = await getCalApi({"namespace":"schedule-pto-environment"});
-      cal("ui", {"theme":"light","hideEventTypeDetails":false,"layout":"month_view"});
+      cal("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
     })();
   }, [])
-  return <Cal namespace="schedule-pto-environment"
-    calLink="acosoft/schedule-pto-environment"
-    style={{width:"100%",height:"500px",overflow:"scroll"}}
-    config={{"layout":"month_view","theme":"light"}}
-    
-    
-  />;
+
+  return <div className={styles.buttons}>
+          <button
+            data-cal-namespace="schedule-pto-environment"
+            data-cal-link="acosoft/schedule-pto-environment"
+            data-cal-config='{"layout":"month_view"}'
+            className="button button--primary button--lg">
+            Book your free trial
+          </button>
+    </div>;
+
 };
-  

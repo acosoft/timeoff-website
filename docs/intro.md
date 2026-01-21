@@ -2,46 +2,45 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Getting Started 
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **TimeOFF - Paid Time Off Workflow** in few minutes.
 
-## Getting Started
+## Why TimeOFF?
 
-Get started by **creating a new site**.
+TimeOFF brings automation and structure to your leave management process, saving your team hours of unnecessary communication and coordination. With clear steps and responsibilities, both employees and managers always know what is expected and when.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Questions like “Who do I send my request to?”, “Where is the document?”, “Does anyone have the latest version?”, or “How many days off do I have left?” become a thing of the past. Everything is streamlined, transparent, and accessible, so your team can focus on what matters most—their work.
 
-### What you'll need
+Consider this: in a small company with about twenty employees, there are usually at least fifty leave requests per year. If TimeOFF saves just 12 minutes per request, that’s 600 minutes—or a full 10 hours—reclaimed for productive work instead of paperwork. 
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+It’s easy to overlook the hidden cost of simple, everyday tasks. But when you add up the time and effort saved, the value of a solution like TimeOFF becomes clear.
 
-## Generate a new site
+## What is TimeOFF?
 
-Generate a new Docusaurus site using the **classic template**.
+TimeOFF is a simple and affordable paid time off workflow for small teams. It focuses only on the essential features you need, while avoiding unnecessary complexity. You don’t need to read a manual to approve someone’s request. Everything is straightforward and intuitive.
 
-The classic template will automatically be added to your project after you run the command:
+<blockquote style={{ fontStyle: 'italic', textAlign: 'center', margin: '0px 0px', marginBottom: '24px', padding: '24px 0px' }}>
+  “Simplicity is the ultimate sophistication.”<br />
+  <span style={{ fontSize: '0.9em' }}>— Leonardo da Vinci</span>
+</blockquote>
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+With TimeOFF, employees can easily submit requests, while managers can quickly approve or decline them, all while everyone receives email notifications to stay informed. Below is a diagram showing the workflow logic, but as a user, you never have to worry about the details. Everything happens through simple forms and email communication.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+<img src="/img/timeoff/001-n8n.png" alt="TimeOFF workflow" style={{maxWidth: "100%", borderRadius: "8px"}} />
 
-The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+## Using TimeOFF as an Employee
 
-Run the development server:
+As an employee, you simply fill out a form by selecting the start and end date for your TimeOFF request. Think of TimeOFF as your personal assistant, handling all notifications and communication across the company, while you focus on your daily work and your time off request is managed in the background.
 
-```bash
-cd my-website
-npm run start
-```
+<img src="/img/timeoff/002-pto-request-form.png" alt="TimeOFF workflow" style={{maxWidth: "100%", borderRadius: "8px"}} />
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## Using TimeOFF as a Manager
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+As a manager, you’ll receive an email notification every time an employee submits a TimeOFF request. Directly from the email, you can approve or decline the request with a single click, while TimeOFF takes care of the rest. The system will automatically notify the employee and everyone else involved about your decision, so you don’t have to do anything more.
+
+<img src="/img/timeoff/004-approver-email.png" alt="TimeOFF workflow" style={{maxWidth: "100%", borderRadius: "8px"}} />
+
+

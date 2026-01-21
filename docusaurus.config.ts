@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Schedule your TimeOFF',
-  tagline: 'Simple PTO workflow for small teams.',
+  tagline: 'Simple paid time off workflow for small teams.',
   favicon: 'img/workflow.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -87,16 +87,20 @@ const config: Config = {
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          position: 'right',
+          label: 'Documentation',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/acosoft/n8n-with-ollama-for-kubernetes',
           label: 'GitHub',
           position: 'right',
         },
       ],
+    },
+    footer: {
+      style: "light", // Remove background color
+      copyright: `Learn more about <a href="/about">TimeOFF project and technologies</a>  used behind it. Created by Aleksandar Zgonjan.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -7,6 +7,9 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+import IndustryStandard from '../components/IndustryStandard';
+import Calendar from '../components/calendar';
+import TrialDetails from '../components/TrialDetails';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -20,7 +23,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="#main-content">
             60-minute Free Trial
           </Link>
         </div>
@@ -36,9 +39,17 @@ export default function Home(): ReactNode {
       title={siteConfig.title}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main id="main-content">
+      
+      <TrialDetails />
+
+      <main id="main-content" style={{ paddingTop: '60px' }}>
+        <div style={{ backgroundColor: '#f7f7f7' }}>
         <HomepageFeatures />
+        </div>
       </main>
+
+      <IndustryStandard />
+      
     </Layout>
   );
 }

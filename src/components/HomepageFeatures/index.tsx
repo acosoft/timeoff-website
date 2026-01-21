@@ -16,9 +16,8 @@ const FeatureList: FeatureItem[] = [
     image: '/img/schedule.png',
     description: (
       <>
-        Use calendar to select time slot for your free trial of 
-        TimeOFF workflow using your own private instance.
-        Environment will be available for 60 minutes.
+        Click the button below to open the calendar and choose a time slot for your free trial of the TimeOFF workflow, 
+        using your own private instance.
       </>
     ),
   },
@@ -60,9 +59,10 @@ function Feature({title, image, description}: FeatureItem) {
 
 export default function HomepageFeatures(): ReactNode {
   return (
+    <>
     <section className={styles.features}>
       <div className="container">
-        <h1 style={{textAlign: 'center', marginBottom: '40px'}}>
+        <h1 style={{textAlign: 'center', marginBottom: '40px', paddingTop: '48px'}}>
           Start Free Trial
           <div style={{ fontSize: "12px"}}>60-minute trial just for you</div>
         </h1>
@@ -71,10 +71,34 @@ export default function HomepageFeatures(): ReactNode {
             <Feature key={idx} {...props} />
           ))}
         </div>
-        <div>
-          <Calendar />
-        </div>
       </div>
     </section>
+    <section className={styles.features}>
+        <div className='container'>
+          <div className='row'>
+            <div className='col col--12 text--center' style={{ marginBottom: '24px' }}>
+              <Calendar />
+            </div>
+            <div className='col col--12 text--center'>
+              <div>
+                <small>
+                  The environment will be set up so that all requests and approvals are sent to your email address.
+                </small>
+              </div>
+              <div>
+                <small>
+                  Each email will include a note indicating who the real recipient would be in a production setup.
+                </small>
+              </div>
+              <div>
+                <small>
+                  Your environment will be deleted when trial ends with all data that you entered.
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    </>
   );
 }
