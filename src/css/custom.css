@@ -38,3 +38,7 @@ footer {
 .docs-wrapper footer, .blog-wrapper footer {
   padding-top: 0 !important;
 }
+
+.blog-list-page .avatar {
+  display: none;
+}

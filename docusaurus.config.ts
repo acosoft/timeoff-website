@@ -47,6 +47,10 @@ const config: Config = {
             'https://github.com/acosoft/docs/tree/main/',
         },
         blog: {
+          path: './blog',
+          blogSidebarTitle: 'TechTalks',
+          routeBasePath: 'techtalks',
+          blogDescription: 'TechTalks about TimeOFF, n8n, Ollama, Kubernetes, and more.',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -84,13 +88,13 @@ const config: Config = {
         src: 'img/workflow.png',
       },
       items: [
+        {to: '/techtalks/2026/ephemeral-environments', label: 'TechTalks', position: 'right'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'right',
           label: 'Documentation',
         },
-        // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/acosoft/n8n-with-ollama-for-kubernetes',
           label: 'GitHub',
