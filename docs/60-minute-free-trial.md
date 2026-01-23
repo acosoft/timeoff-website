@@ -6,9 +6,9 @@ sidebar_position: 2
 
 ## What to Expect?
 
-We want your TimeOFF workflow free trial to be simple and as close as possible to the real production experience. Here is what you get when you register for free trial:
+We want your TimeOFF workflow free trial to be simple and as close as possible to the real production experience. Here is what you get when you register for the free trial:
 
-- Your own server for 60 minutes on **\<random>.barufa.com** domain
+- Your own server for 60 minutes on **<random>.barufa.com** domain
 - Everything is preconfigured, including email delivery to your address
 - An experience nearly identical to the production environment
 
@@ -39,7 +39,8 @@ All emails generated during the trial will be sent to the email address you used
 
 ## In Short
 
-Book your slot and get a confirmation. When your time comes, you will receive a link to start testing. Everything is ready for you. There are no extra steps or complications. If you have any questions or run into issues, please contact us.
+Book your slot and get a confirmation. When your time comes, you will receive a link to start testing. Everything is ready for you. There are no extra steps or complications. If you have any questions or encounter any issues, please contact us.
+
 
 
 

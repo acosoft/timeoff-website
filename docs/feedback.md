@@ -23,5 +23,5 @@ This project is an experiment and a showcase. It also serves as a starting point
 
 For now, this is just for fun, but it could become something more serious in the future. Anything is possible.
 
-If you are a developer and want to learn more about how this project was built and technologies I used, you can find more information on the [about page](/about).
+If you are a developer and want to learn more about how this project was built and the technologies I used, you can find more information on the [about page](/about).
 

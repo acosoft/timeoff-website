@@ -8,13 +8,13 @@ This page explains how an approver or manager reviews and processes TimeOFF requ
 
 ## Approving or Declining Requests
 
-You do not need to log in to any new system to approve or decline a TimeOFF request. Requests will arrive directly in your inbox, ready for review. The process is as simple as clicking the Approve or Decline button in the email. Before making a decision, please check if the employee has enough leave days available. With further integration, this step can be automated.
+You do not need to log in to any new system to approve or decline a TimeOFF request. Requests will arrive directly in your inbox, ready for review. The process is as simple as clicking the Approve or Decline button in the email. Before making a decision, please check whether the employee has enough leave days available. With further integration, this step can be automated.
 
 <div style={{ border: "solid 5px #fbfcfe", borderRadius: "8px", marginBottom: "20px" }}>
     <img src="/img/trial/manage-request.png" alt="TimeOFF workflow" style={{maxWidth: "100%" }} />
 </div>
 
-Once you select Approve or Decline, your part is done and you can continue with your daily work.
+Once you select Approve or Decline, your part is done, and you can continue with your daily work.
 
 ## Employee Notification
 

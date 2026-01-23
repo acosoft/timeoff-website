@@ -88,13 +88,13 @@ const config: Config = {
         src: 'img/workflow.png',
       },
       items: [
-        {to: '/techtalks/2026/ephemeral-environments', label: 'TechTalks', position: 'right'},
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'right',
           label: 'Documentation',
         },
+        {to: '/techtalks/2026/ephemeral-environments', label: 'TechTalks', position: 'right'},
         {
           href: 'https://github.com/acosoft/n8n-with-ollama-for-kubernetes',
           label: 'GitHub',

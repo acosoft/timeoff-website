@@ -16,7 +16,7 @@ This is all the user needs to do to start a TimeOFF request. It is that simple.
 
 After confirming their choice with the submit button, the user is free to continue their daily work.
 
-There are two possible outcomes to a TimeOFF request.
+There are two possible outcomes for a TimeOFF request.
 
 ## Request Approved
 
