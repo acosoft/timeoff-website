@@ -8,7 +8,7 @@ sidebar_position: 2
 
 We want your TimeOFF workflow free trial to be simple and as close as possible to the real production experience. Here is what you get when you register for the free trial:
 
-- Your own server for 60 minutes on **<random>.barufa.com** domain
+- Your own server for 60 minutes on **\<random>.barufa.com** domain
 - Everything is preconfigured, including email delivery to your address
 - An experience nearly identical to the production environment
 

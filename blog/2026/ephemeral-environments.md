@@ -6,7 +6,7 @@
 # Ephemeral environments
 
 
-I started with a simple idea: "Allow any user to register and experiment with the TimeOFF workflow." Here are the key questions I considered while implementing this concept:
+I started with a simple idea: "Allow any user to register and experiment with the TimeOFF workflow." Here are the key questions I considered while implementing this:
 
 
 ### How many servers do I need?
@@ -47,7 +47,7 @@ The user isn't actually booking a meeting with a salesperson, but reserving a 60
 - cal.com likely has strong bot prevention, which helps avoid fake registrations
 - Only one user can book a time slot at once
 - I can run everything on a single server
-- I can listen to the `BOOKING_STARTED` event and send custom data needed to set up the environment
+- I can listen to the `BOOKING_CREATED` event and send custom data needed to set up the environment
 
 
 ### Downsides
@@ -59,7 +59,7 @@ cal.com offers limited customization of the booking process with a free account,
 
 Here's how everything works in the background:
 
-- User visits https://docs.barufa.com
+- User visits https://timeoff.barufa.com
 - After clicking "Book your free trial", cal.com shows available time slots
 - cal.com sends a `BOOKING_CREATED` event to an n8n workflow
 - The n8n workflow stores meeting data and prepares everything for the environment
