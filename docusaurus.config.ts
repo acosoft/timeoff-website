@@ -4,6 +4,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+const footer = `<div>Learn more about <a href="/about">TimeOFF project and technologies</a>  used behind it.</div>
+<div style="margin-bottom: 8px;">Need a custom scheduling or workflow setup?</div>
+<div><a href="https://cal.com/acosoft/15min"><img alt="Book us with Cal.com" src="https://cal.com/book-with-cal-light.svg" /></a></div>`;
+
 const config: Config = {
   title: 'Schedule your TimeOFF',
   tagline: 'Simple paid time off workflow for small teams.',
@@ -104,7 +108,7 @@ const config: Config = {
     },
     footer: {
       style: "light", // Remove background color
-      copyright: `Learn more about <a href="/about">TimeOFF project and technologies</a>  used behind it. Created by Aleksandar Zgonjan.`,
+      copyright: footer,
     },
     prism: {
       theme: prismThemes.github,
